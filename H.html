@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Waiting Page</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        .message {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: purple;
+        }
+    </style>
+</head>
+<img src="https://media.tenor.com/-_kMuKENUbMAAAAC/twitch.gif">
+<body>
+<div class="message">
+    Please wait while we process your request
+</div>
+<a href="#" onclick="setTimeout(redirect, 3000)">CLICK THIS TO REDIRECT IN 3 SECS</a>
+
+<script>
+    function redirect(){
+        window.location.href = "https://www.twitch.tv/";
+    }
+
+</script>
+
+</body>
+</html>
